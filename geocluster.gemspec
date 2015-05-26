@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
-  spec.add_development_dependency "pr_geohash"
-  spec.add_development_dependency "geocoder"
+
+  spec.add_runtime_dependency "pr_geohash"
+  spec.add_runtime_dependency "geocoder"
 end
